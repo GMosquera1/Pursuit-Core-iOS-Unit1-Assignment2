@@ -8,5 +8,24 @@
 
 import Foundation
 
-print("Hola. Are you ready?")
+print("Hola 😆. Are you ready?")
+
+sleep (2)
+
+var imageHang = """
+
+        -------
+        T     T
+              |
+              |
+              |
+              |
+    ---------------------
+
+"""
+print (imageHang)
+sleep (3)
+
+print ("What is your first guess? You have six attempts")
+let responseHang = readLine()
 
